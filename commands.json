@@ -1,0 +1,54 @@
+[
+    {
+        "name": "help",
+        "description": "Display the help menu."
+    },
+    {
+        "name": "status",
+        "description": "Server status on counting."
+    },
+    {
+        "name": "leaderboard",
+        "description": "Show the top 10 Discord servers with the most counts."
+    },
+    {
+        "name": "setchannel",
+        "description": "Set the channel for counting.",
+        "options": [
+            {
+                "type": 7,
+                "name": "channel",
+                "description": "The channel to set.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "blockuser",
+        "description": "Block the user so he can't count.",
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "The user to block.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "unblockuser",
+        "description": "Unblock the user so he can count.",
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "The user to unblock.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "update",
+        "description": "Update server un-updated information in the database."
+    }
+]
